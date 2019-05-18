@@ -14,7 +14,7 @@ class MainView extends Component {
   }
 
   sendData = () => {
-    fetch("http://localhost:1447/api/subscribe?api_key=bonthoobonthoo123", {
+    fetch("https://stupidhack19-backend.herokuapp.com/api/invite-bontho?api_key=bonthoobonthoo123", {
       method: "post",
       headers: {
         'Content-Type': 'application/json'
