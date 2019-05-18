@@ -31,5 +31,6 @@
   },
   "devDependencies": {
     "eslint": "^5.16.0"
-  }
+  },
+  "proxy": "https://stupidhack19-backend.herokuapp.com"
 }
