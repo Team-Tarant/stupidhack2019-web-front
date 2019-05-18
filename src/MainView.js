@@ -14,8 +14,11 @@ class MainView extends Component {
   }
 
   sendData = () => {
-    fetch("/", {
+    fetch("http://localhost:1447/api/subscribe?api_key=bonthoobonthoo123", {
       method: "post",
+      headers: {
+        'Content-Type': 'application/json'
+      },
       body: {
         number: this.state.value
       }
